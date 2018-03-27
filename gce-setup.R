@@ -33,6 +33,8 @@ vm <- gce_vm(template = "rstudio",
              password = "demo-pass",
              predefined_type = "n1-highmem-2")
 
+# MACHINE TYPES: https://cloud.google.com/compute/pricing#machinetype 
+
 my_rstudio <- gce_vm("project-name")
 
 
